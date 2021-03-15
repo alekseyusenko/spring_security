@@ -35,8 +35,7 @@ public class DBInit {
         if (userList.isEmpty()) {
             System.out.println("No users found. Creating default admin user.");
             Thread.sleep(3000);
-            System.out.println("Credentials: ");
-            System.out.println("username = admin, password = admin");
+            System.out.println("Credentials: username = admin, password = admin");
             Thread.sleep(3000);
             User admin = new User();
             admin.setUsername("admin");
